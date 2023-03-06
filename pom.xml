@@ -11,8 +11,13 @@
 	<groupId>com.example</groupId>
 	<artifactId>springbootkafka</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>springbootkafka</name>
 	<description>Practice project for Spring Boot Kafka</description>
+	<modules>
+		<module>kafkaConsumer</module>
+		<module>kafkaProducer</module>
+	</modules>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
